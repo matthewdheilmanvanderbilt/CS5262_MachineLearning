@@ -86,26 +86,11 @@ Will tell what proportion of the patients we predicted would have a stroke, actu
 Proportion of patients that actually had a stroke.  It will be calculated with: recall = TP / (TP + FN)
 
 ### Arithmetic Mean (F1 measure)
-Will tell if the precision or recall is too small.  The arithmetic mean will be calculated with: (2 * Pecision * Recall) / (Precision + Recall)
+Will tell if the precision or recall is too small.  The arithmetic mean will be calculated with: f1 score = (2 * Pecision * Recall) / (Precision + Recall)
 
 ### Area Under the Curve
 Will look at the model across multiple conditions and allow the model to determine outcome based on different thresholds.  The calculation is not known at this point and will be filled in later.
 
-## Data Dictionary
-| Feature | Description |
-| :--------------------- | :--------------------|
-| id | A unique identifier (integer) |
-| gender | "Male", "Female", "Other" |
-| age | Count variable ranging from 1.32 to 82 | 
-| hypertension | 0 if the patient doesn't have hypertension, 1 if the patient has hypertension |
-| heart_disease | 0 if the patient doesn't have any heart diseases, 1 if the patient has a heart disease |
-| ever_married | "No" or "Yes" |
-| work_type | "children", "Govt_job", "Never_worked", "Private" or "Self-employed" |
-| Residence_type | "Rural" or "Urban" |
-| avg_glucose_level | average glucose level in blood (float) |
-| bmi | body mass index (float) |
-| smoking_status |  "formerly smoked", "never smoked", "smokes" or "Unknown". "Unknown" in smoking_status means that the information is unavailable for this patient|
-| stroke | 0 if the patient never had a stroke, 1 if the patient had a stroke |
 
 # Timeline
 This project will be completed over six (6) weeks, starting 5/10.  Assignments are due every Wednesday at 11:59PM.  
@@ -115,7 +100,7 @@ The repo is currently simple with one notebook, one README file, and one dataset
 * stroke_preduction.ipynb: junipyer notebook
 * heathcare-dataset-stroke-data.csv : The dataset described in [Data](#data) 
 * README.md: This readme file.
-
+* data_dictionary.csv: list of all features (columns / data points) and a description of each feature
 
 
 # Getting Started
