@@ -1,0 +1,13 @@
+feature,description
+id,A unique identifier for each sample (integer)
+gender,The sex of the patient.  Values are 'Male' or 'Female' or 'Other'
+age,Age of the patient ranging from 1.32 to 82 (float)
+hypertension,Indicates if a patient has hypertension: 0 if the patient doesn't have hypertension or 1 if the patient has hypertension 
+heart_disease ,Indicates if the patient has heart disease: 0 if the patient doesn't have heart disease or 1 if the patient has heart disease
+ever_married,Indicates if the patient has been ever or is currently  married: values are 'Yes' or 'No'
+work_type ,Indicates the type of work the patient performs: values are 'children' (raising children is full time) or 'Govt_job' (works for the government) or 'Never_worked' (never worked or raised children) or 'Private' (works for a non-government organizations and not self employed) or 'Self-employed (owns a business or independent contractor)
+Residence_type,Indicates the residence type of the patient.  Values are 'Rural' or 'Urban'
+avg_glucose_level,Indicates the patient's average glucose level in blood (float) 
+bmi,Indicates the patient's body mass index (float) 
+smoking_status ,Indicates the smoking status of the patient: values are 'formerly smoked' or 'never smoked' or 'smokes' or 'Unknown'.  Unknown means the information is not known for this patient. 
+stroke,"Indicates if the patient ever had a stroke: 0 if the patient never had a stroke, 1 if the patient had a stroke"
