@@ -74,6 +74,11 @@ I will build a confusion matrix:
 | **Predicted Stroke** | TP  | FP  |
 | **Predicted No Stroke** | FN  | TN  |
 
+* True positive (TP): correct positive prediction
+* False positive (FP): incorrect positive prediction
+* True negative (TN): correct negative prediction
+* False negative (FN): incorrect negative prediction
+
 ### Accuracy
 Accuracy will tell the accuracy of the model.  It will be calculated with: Accuracy = (TP + TN) / (TP + FP + FN + TN)
 
