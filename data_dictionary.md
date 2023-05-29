@@ -1,8 +1,8 @@
 | Feature | Description | Data Type |
 | --- | --- | --- |
 | id | A unique identifier for each sample | integer |
-| gender | Sex of the patient.  Values are 'Male' or 'Female' or 'Other' | string |
-| age | Sge of the patient | integer |
+| gender | Sex of the patient.  Values are 'Male', 'Female' or 'Other' | string |
+| age | Age of the patient | integer |
 | hypertension | Indicates if a patient has hypertension: 0 = patient doesn't have hypertension; 1 = patient has hypertension  | integer |
 | heart_disease | Indicates if the patient has heart disease: 0 if the patient doesn't have heart disease or 1 if the patient has heart disease | integer |
 | ever_married | Indicates if the patient has been ever or is currently  married. Values are 'Yes' or 'No' | string |
