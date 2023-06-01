@@ -2,7 +2,7 @@
 | --- | --- | --- |
 | id | A unique identifier for each sample. | integer |
 | gender | Sex of the patient.  Values are 'Male', 'Female', or 'Other'. | string |
-| age | Age of the patient. | integer |
+| age | Age of the patient.  Ages 2 and higher contain zero(0) for all decimal values.  Ages under 2 have decimal values indicating the age in years and months. | float |
 | hypertension | Indicates if a patient has hypertension: 0 = patient doesn't have hypertension; 1 = patient has hypertension.  | integer |
 | heart_disease | Indicates if the patient has heart disease: 0 = patient doesn't have heart disease; 1 = patient has heart disease. | integer |
 | ever_married | Indicates if the patient has ever been, or is currently married. Values are 'Yes' or 'No'. | string |
